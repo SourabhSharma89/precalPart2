@@ -1,0 +1,109 @@
+$(document).ready(function(){
+						    
+						  window.SpaceClick=0;
+						  
+						   $(".Stp1,.Stp2,.Stp3,.Stp4").hide();
+						   $(".Stp1").show();
+					 
+					 
+					 
+					 
+					 $(".step1").click(function(){ 
+										SpaceClick = 1;			   
+								$(".Stp1,.Stp2,.Stp3,.Stp4,.Content00").hide();
+								$(".Content1_1").show();
+								$(".SpaceBarDiv").show();
+								
+								$(".step1").css({'color':'#C00','box-shadow':'0px 3px 15px rgb(236, 7, 7), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});	
+								$(".step2,.step3").css({'color':'black' ,'box-shadow':'0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});
+						  
+						    });
+							
+							
+							  $(".step2").click(function(){ 
+						    		SpaceClick = 2;
+									  $(".Stp1,.Stp2,.Stp3,.Stp4,.Content00").hide();
+						   			  $(".Content2_1,.Step2").show();
+									  $(".SpaceBarDiv").show();
+									  
+									  $(".step2").css({'color':'#C00','box-shadow':'0px 3px 15px rgb(236, 7, 7), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});	
+								$(".step1,.step3").css({'color':'black' ,'box-shadow':'0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});
+							  
+						    });
+							  
+							  
+							  
+							    $(".step3").click(function(){ 
+						  			
+									  $(".Stp1,.Stp2,.Stp3,.Stp4,.Content00").hide();
+						  			  $(".Content3_1,.Step2,.Step3").show();
+									   $(".SpaceBarDiv").hide();
+									   
+									   $(".step3").css({'color':'#C00','box-shadow':'0px 3px 15px rgb(236, 7, 7), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});	
+								$(".step2,.step1").css({'color':'black' ,'box-shadow':'0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});
+						  			
+						  
+						    });
+					 
+					 
+					 
+				
+						  
+						
+						  
+						  
+						  
+						    
+						  
+						  
+						  
+						  	
+					 
+					  
+				
+			$(document).keypress(function(e){
+								  
+								
+								  if(e.which==32 ){
+									
+							
+									
+													
+									  spacebarClickFunction();
+												
+								  }
+											  });
+				
+					$(".spacebar").click(function(){
+								
+												spacebarClickFunction();
+												 
+												  });
+					
+					
+						spacebarClickFunction = function(){
+							
+							SpaceClick++;
+							
+							if(SpaceClick==2)
+							{
+								 $(".Stp1,.Stp2,.Stp3,.Stp4,.Content00").hide();
+						   			  $(".Content2_1,.Step2").show();
+									   $(".step2").css({'color':'#C00','box-shadow':'0px 3px 15px rgb(236, 7, 7), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});	
+								$(".step1,.step3").css({'color':'black' ,'box-shadow':'0px 0px 0px rgba(0,0,0,.4), inset 0px 0px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});
+								
+							}
+							else if(SpaceClick==3)
+							{
+								 $(".Stp1,.Stp2,.Stp3,.Stp4,.Content00").hide();
+						  			  $(".Content3_1,.Step2,.Step3").show();
+								$(".spacebar").hide();
+								
+								$(".step3").css({'color':'#C00','box-shadow':'0px 3px 15px rgb(236, 7, 7), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});	
+								$(".step2,.step1").css({'color':'black' ,'box-shadow':'0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5)'});
+								
+							}
+						}
+				
+					  
+						   });

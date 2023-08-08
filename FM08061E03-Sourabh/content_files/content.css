@@ -1,0 +1,9320 @@
+@charset "utf-8";
+.txtn{ font-weight:bold!important;}
+.clear
+{
+	margin-left:5%;
+	
+}
+.arrow {
+    font-size: 1.5em;
+    color: #c00;
+}
+.p_t {
+    padding-top: 0.1em;
+    white-space: nowrap;
+}
+
+.AreaForKeypadAndInputInDevice{
+	display:inline-block;
+	float:right;
+	right:0%;
+	z-index:5;
+}
+.remark{
+	width:auto;
+}
+.middle{
+	width:100%;
+}
+ .inputDiv{ position:relative;}
+.hidden{
+	visibility:hidden;
+}	
+
+tr,td{
+	border:0px solid #000;
+}
+.opac{
+	visibility:hidden;
+}
+.bold{
+	font-weight:bold;
+}
+.undrlin{
+	text-decoration:underline;
+}
+.t_c{
+	text-align:center;
+}
+
+.blue_col{
+	color:#00C;
+}
+.green_color{
+	color:#090;
+}
+
+.Mrgntop{
+	margin-top:1.5%;
+}
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.reset{
+	cursor:pointer;
+	width: 100%;
+}
+.done_btn{
+	cursor:pointer;
+	width: 100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+}
+
+.svg1{
+	width:100%;
+}
+
+.txt1,.txt2,.txt3{
+	display:none;
+	font-weight:bold;
+}
+
+.howTo_div{
+	display:none;
+}
+.howTo_button:hover{
+	color:white;
+}
+
+.inputDiv{
+	position:relative;
+	display: inline-block;
+}
+
+.P_correct
+{
+	color:#00C;
+	font-weight:bold;
+	font-family: arial;
+	display:none;
+	
+}
+.Step1{
+	position:relative;
+}
+.Done_con{
+	position:absolute;
+	right:2%;
+	bottom:10%;
+	background-color:#FFF;
+	display:none;
+	border:1px solid;
+	box-shadow:2px 2px 2px #666;
+}
+
+.rst{
+	border:1px solid #DDD;
+	background-color:#DDD;
+	box-shadow:1px 1px 1px #666;
+}
+.Cross_Img1{
+	width:5%;
+	position:absolute;
+	top:0%;
+	right:0%;
+}
+
+
+.buttonDivForDevice{
+	position:absolute;
+	display:none;
+}
+
+.remark {
+    width: auto;
+    position: absolute;
+    top: 70%;
+    left: -40%;
+}
+
+.blankMessage_New1
+{
+	 width: auto;
+    position: absolute;
+    top: 70%;
+    left: -40%;
+}
+
+.tb2
+{
+margin-left:auto;
+margin-right:auto;
+}
+
+
+
+.prompt_New{
+	color:#00F;
+	position: absolute;
+	padding: 0.5% 0.5% 0.5% 1%; 
+	background: #FFF;
+	border: 1px solid #000;
+	float: left;
+	white-space: nowrap;
+	display: inline-block;
+	display:none;
+	z-index:50;
+}
+
+.fraction{ line-height:110%;}
+.fraction > span {
+    display: block;
+    padding-top: 0.0em;
+}
+.fraction span.fdn {border-top: 0.07em solid black;}
+.blue span.fdn {border-top: 0.07em solid #00c;}
+.red span.fdn {border-top: 0.07em solid #c00;}
+
+
+.Portrait
+{
+display:none;	
+}
+.whitespace1{
+	white-space:pre;
+	}
+.alghai{ width:95%; margin:0 auto;}
+.mini_tablBtn {
+    width: 5em;
+    border: 1.5px solid #cc00009e;
+    background-image: linear-gradient(45deg, rgba(102, 255, 50, 1), hsl(66, 81%, 62%));
+    display: inline-block;
+    padding: 0.4em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+    cursor: pointer;
+    margin-left: 0%;
+}
+.mini_tablBtn {top: 1em!important; right: -12.5em!important;}
+.ZtableDivMain, .PortSol {
+    font-size: 0.70em;
+    border: 1.5px solid darkgoldenrod;
+    border-collapse: collapse;
+    padding: 0.4em;
+    box-shadow: 1px 1px 2px steelblue;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgba(255, 153, 0, 0.42), rgba(255, 255, 0, 0.07));
+    position: absolute!important;
+    background-color: floralwhite;
+    width: 19.5em;
+    right: -21.2em;
+    top: 4.5em;
+}
+.cross_img{
+    width: 0.8em;
+    vertical-align: top;
+    float: right;
+	cursor:pointer;
+}
+.img_sr{width:18em;}
+.red{color:#F00;}
+.qsn_table td {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em!important;
+}
+.td_headng{
+	background-color:#B1B1FE;
+	}
+.td_headng2 {
+    background-color: lavender;
+}
+.PortSol{ display:none;}
+.ZtableDivMain{ display:inline-block;}
+.InputDiv{display: flex;align-items: baseline;}
+.input {
+    width: 100%;
+}
+.inputDiv {
+    width: 10%;
+}
+.bracket1{ display:inline-block; transform:scale(1,1.8); position:absolute; top:-0.08em; font-weight:bold; color:deeppink;}
+.bracketDiv{position:relative;}
+.bracket2{left:0.1em;}
+.done1 {
+    right: -1em;
+    top: -1.6em;
+    position: absolute;
+}
+.button_div{ bottom:unset!important; left:unset!important;}
+.Wrng, .Wrt{ position:absolute; right:-1.5em; top:0em; font-size:0.9em;}
+
+@media (min-width: 450px) and (max-width: 530px)
+{
+	
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 40px;
+	width:calc((100% - 40px));
+}
+
+.howTo_button{
+	border:none;
+	padding:1px;
+	font-size:8px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+.howToForDevice{
+	margin-top:2%;
+	margin-left:20%;
+}
+.howTo{
+	position:absolute;
+	right:22%;
+	z-index:10;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:9px;
+	line-height:130%;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1{
+	margin-left:0%;
+	width:62%;
+	display:inline-block;
+	float:left;
+	border-right:1px solid #000;
+}
+
+
+.Graph_main_div{
+	width:35%;
+	display:inline-block;
+	float:right;
+	position:relative;
+	
+}
+
+.GraphSvg_div{
+	width:92%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:7px;
+	left:-10px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:3px;
+}
+
+.reset{
+    padding: 1px;
+    border-radius: 2px;
+	font-size:8px;
+}
+.done_btn{
+    padding: 1px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:9px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:20px;
+	font-weight:bold;
+	display:none;
+}
+
+
+.noClass{
+	
+}
+.Mrgntop{
+	margin-top:6px;
+	margin-left:4%;
+}
+
+
+
+
+.InputAndDoneTbl{
+	width:100%;
+	
+}
+.inputAndDoneSpace{
+	position:absolute;
+	width:30%;
+	right:1%;
+	top:17%;
+}
+
+.Inpt_td1{
+	text-align:center;
+	font-size:9px;
+}
+
+
+.ques_tb{
+	width:32%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:.5%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:.5%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:30%;
+}
+.tb1_td2{
+	width:70%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:60%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:12%;
+	padding-bottom:0%;
+}
+
+.tb3_td2{
+	width:45%;
+	padding-bottom:0%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:0%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:0%;
+}
+
+.fnt1{
+	font-size:16px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:50%;
+}
+
+.Step2{
+	width:85%;
+	display:inline-block;
+	margin-left:8%;
+	margin-top:1%;
+}
+
+.Step3{
+	width:100%;
+	display:inline-block;
+	margin-top:1%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+ .font_reduce
+	 {
+		font-size:0.9em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }
+
+}
+@media (min-width: 531px) and (max-width: 610px)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+
+.howTo_button{
+	border:none;
+	padding:2px;
+	font-size:8px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	margin-top:1%;
+	margin-left:20%;
+}
+
+.howTo{
+	position:absolute;
+	right:28%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:9px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1{
+	margin-left:1%;
+	width:59%;
+	display:inline-block;
+	float:left;
+	border-right:2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:36%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:92%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:12px;
+	left: -16px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:3px;
+}
+
+.reset{
+    padding: 2px;
+    border-radius: 2px;
+	font-size:8px;
+}
+.done_btn{
+    padding: 2px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:9px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:20px;
+	font-weight:bold;
+	display:none;
+}
+
+
+.noClass{
+	
+}
+.Mrgntop{
+	margin-top:6px;
+	margin-left:4%;
+}
+
+
+
+
+
+
+.InputAndDoneTbl{
+	width:100%;
+	
+}
+.inputAndDoneSpace{
+	position:absolute;
+	width:28%;
+	right:1%;
+	top:17%;
+}
+
+.Inpt_td1{
+	text-align:center;
+	font-size:9px;
+}
+
+
+.ques_tb{
+	width:32%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:.5%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:.5%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:30%;
+}
+.tb1_td2{
+	width:70%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:60%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:12%;
+	padding-bottom:0%;
+}
+
+.tb3_td2{
+	width:45%;
+	padding-bottom:0%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:0%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:0%;
+}
+
+.fnt1{
+	font-size:16px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:50%;
+}
+
+.Step2{
+	width:85%;
+	display:inline-block;
+	margin-left:8%;
+	margin-top:1%;
+}
+
+.Step3{
+	width:100%;
+	display:inline-block;
+	margin-top:1%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+	
+
+.remark {
+    top: 90%;
+    left: -4%;
+}
+.prompt_New {
+    top: 6%;
+    left: -76%;
+}	
+
+
+ .font_reduce
+	 {
+		font-size:0.9em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }
+
+}
+@media (min-width: 611px) and (max-width: 690px)
+{
+	.p_t
+	{white-space:normal;}
+		.p_t1{white-space:nowrap;	
+			 vertical-align:top;
+			 }
+		.p_t2
+		{
+		 padding-top: 1em; 
+		}
+		 .nowrap1
+	 {
+		white-space:nowrap; 
+	 }
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 40px;
+	width:calc((100% - 40px));
+}
+
+.howTo_button{
+	border:none;
+	padding:2px;
+	font-size:8px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:2%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	margin-top:1%;
+	margin-left:22%;
+}
+
+
+.howTo{
+	position:absolute;
+	right:28%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:10px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: -3%;
+    margin-top: 10%;
+    width: 59%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:40%;
+	margin-top:5%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:92%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:12px;
+ left: -14px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:3px;
+}
+
+.reset{
+    padding: 3px;
+    border-radius: 2px;
+	font-size:8px;
+}
+.done_btn{
+    padding: 3px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:10px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:20px;
+	font-weight:bold;
+	display:none;
+}
+
+
+.noClass{
+	
+}
+.Mrgntop{
+	margin-top:6px;
+	margin-left:4%;
+}
+
+
+
+
+.InputAndDoneTbl{
+	width:100%;
+	
+}
+.inputAndDoneSpace{
+	position:absolute;
+	width:30%;
+	right:1%;
+
+	top:7%;
+}
+
+.Inpt_td1{
+	text-align:center;
+	font-size:10px;
+}
+
+
+.ques_tb{
+	width:32%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:.5%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:.5%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:30%;
+}
+.tb1_td2{
+	width:70%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:60%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:12%;
+	padding-bottom:0%;
+}
+
+.tb3_td2{
+	width:45%;
+	padding-bottom:0%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:0%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:0%;
+}
+
+.fnt1{
+	font-size:16px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:50%;
+}
+
+.Step2{
+	width:85%;
+	display:inline-block;
+	margin-left:8%;
+	margin-top:1%;
+}
+
+.Step3{
+	width:100%;
+	display:inline-block;
+	margin-top:1%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+	
+	
+
+.remark {
+    top: 55%;
+    left: -7%;
+}
+.prompt_New {
+    top: 13%;
+    left: -73%;
+}	
+
+ .font_reduce
+	 {
+		font-size:0.9em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }
+
+}
+@media (min-width: 691px) and (max-width: 770px)
+{
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	height:20px;
+	font-size:10px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	margin-top:1%;
+	margin-left:20%;
+}
+
+
+.howTo{
+	position:absolute;
+	right:30%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:12px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: -4%;
+    width: 65%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:36%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:92%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:12px;
+	left:-16px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 3px;
+    border-radius: 2px;
+	font-size:10px;
+}
+.done_btn{
+    padding: 3px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:11px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+}
+
+
+.noClass{
+	
+}
+.Mrgntop{
+	margin-top:8px;
+	margin-left:4%;
+}
+
+
+
+.ClickToAnsDiv {
+    margin-top: 0px;
+}
+
+.InputAndDoneTbl{
+	width:100%;
+	
+}
+.inputAndDoneSpace{
+	position:absolute;
+	width:30%;
+	right:1%;
+	top:14%;
+}
+
+.Inpt_td1{
+	text-align:center;
+	font-size:13px;
+}
+
+
+.ques_tb{
+	width:32%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:30%;
+}
+.tb1_td2{
+	width:70%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:60%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:12%;
+	padding-bottom:0%;
+}
+
+.tb3_td2{
+	width:45%;
+	padding-bottom:0%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:0%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:0%;
+}
+
+.fnt1{
+	font-size:20px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:50%;
+}
+
+.Step2{
+	width:85%;
+	display:inline-block;
+	margin-left:8%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:100%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+	
+
+.remark {
+    top: 84%;
+    left: -40%;
+}
+.blankMessage_New1
+{
+    top: 50%;
+    left: -35%;
+}
+
+.p_t
+	{white-space:normal;}
+		.p_t1{white-space:nowrap;	
+			 vertical-align:top;
+			 }
+		.p_t2
+		{
+		 padding-top: 1em; 
+		}
+		 .nowrap1
+	 {
+		white-space:nowrap; 
+	 }
+	 
+.remark {
+    top: 93%;
+    left: -4%;
+}
+.prompt_New {
+    top: -4%;
+    left: -82%;
+}	
+
+
+ .font_reduce
+	 {
+		font-size:0.9em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }
+	 .SolutionRemark{
+		 z-index: 1;
+    background: white;
+		 }
+
+}
+@media (min-width: 771px) and (max-width: 850px)
+{
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	height:24px;
+	font-size:11px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	margin-top:.5%;
+	margin-left:20%;
+}
+
+
+.howTo{
+	position:absolute;
+	right:30%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:14px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: -4.4%;
+    width: 64%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+.Graph_main_div{
+	width:37%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:92%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:16px;
+	left: -21px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 4px;
+    border-radius: 5px;
+	font-size:11px;
+	height:26px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 5px;
+	height:26px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:12px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+}
+
+
+.noClass{
+	font-size:17px;
+}
+.Mrgntop{
+	margin-top:8px;
+	margin-left:4%;
+}
+.header{
+	
+}
+
+
+
+
+
+.InputAndDoneTbl{
+	width:100%;
+	
+}
+.inputAndDoneSpace{
+	position:absolute;
+	width:30%;
+	right:1%;
+	top:15%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:15px;
+}
+
+
+.ques_tb{
+	width:32%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:30%;
+}
+.tb1_td2{
+	width:70%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:60%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:0%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:0%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:0%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:0%;
+}
+
+.fnt1{
+	font-size:25px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:50%;
+}
+
+.Step2{
+	width:90%;
+	display:inline-block;
+	margin-left:8%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:100%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:6%;
+	float:left;
+}
+.Step32{
+	width:94%;
+	float:left;
+}
+.img_arrow{
+	width:85%;
+}
+
+.blankMessage_New1
+{
+    top: 50%;
+    left: -35%;
+}
+.remark {
+    width: auto;
+    position: absolute;
+    top: 86%;
+    left: -40%;
+}
+.p_t
+	{white-space:normal;}
+		.p_t1{white-space:nowrap;	
+			 vertical-align:top;
+			 }
+		.p_t2
+		{
+		 padding-top: 1em; 
+		}
+		 .nowrap1
+	 {
+		white-space:nowrap; 
+	 }
+	 
+.remark {
+    top: 93%;
+    left: -4%;
+}
+.prompt_New {
+    top: -2%;
+    left: -79%;
+}	
+
+
+
+ .font_reduce
+	 {
+		font-size:0.85em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }
+	 .SolutionRemark{
+		 z-index: 1;
+    background: white;
+		 }
+		 .button_div{ right:0em!important;}
+
+}
+@media (min-width: 851px) and (max-width: 930px)
+{
+	
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	height:22px;
+	font-size:12px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	margin-top:.5%;
+	margin-left:25%;
+}
+
+
+.howTo{
+	position:absolute;
+	right:30%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:15px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: -3.4%;
+    width: 62%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:38%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:92%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div {
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    bottom: 25px;
+    left: -22px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:12px;
+	height:30px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	height:30px;
+	font-size:12px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:13px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+}
+
+
+.noClass{
+	
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:4%;
+}
+
+
+
+
+
+
+.InputAndDoneTbl{
+	width:100%;
+	
+}
+.inputAndDoneSpace{
+	position:absolute;
+	width:30%;
+	right:1%;
+	top:15%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:17px;
+}
+
+
+.ques_tb{
+	width:32%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:30%;
+}
+.tb1_td2{
+	width:70%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:60%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:15%;
+	padding-bottom:0%;
+}
+
+.tb3_td2{
+	width:43%;
+	padding-bottom:0%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:0%;
+}
+
+.tb3_td4{
+	width:38%;
+	padding-bottom:0%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:50%;
+}
+
+.Step2{
+	width:85%;
+	display:inline-block;
+	margin-left:8%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:100%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+	
+
+.remark {
+    top: 80%;
+    left: -42%;
+}
+.blankMessage_New1
+{
+    top: 50%;
+    left: -35%;
+}
+.p_t
+	{white-space:normal;}
+		.p_t1{white-space:nowrap;	
+			 vertical-align:top;
+			 }
+		.p_t2
+		{
+		 padding-top: 1em; 
+		}
+		 .nowrap1
+	 {
+		white-space:nowrap; 
+	 }
+	 
+.remark {
+    top: 53%;
+    left: -10%;
+}
+.prompt_New {
+    top: -4%;
+    left: -75%;
+}	
+
+ .font_reduce
+	 {
+		font-size:0.88em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }	
+	  .SolutionRemark{
+		 z-index: 1;
+    background: white;
+		 }
+}
+@media (min-width: 931px) and (max-width: 1010px)
+{
+	
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	height:23px;
+	font-size:13px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	margin-top:.5%;
+	margin-left:25%;
+}
+
+
+.howTo{
+	position:absolute;
+	right:28%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:16px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 3%;
+    width: 61%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:34%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:88%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:25px;
+	left:-12px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:13px;
+	height:30px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	height:30px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:13px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+}
+
+
+.noClass{
+	font-size:18px;
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:4%;
+}
+
+
+
+
+
+.InputAndDoneTbl{
+	width:100%;
+	
+}
+.inputAndDoneSpace{
+	position:absolute;
+	width:30%;
+	right:1%;
+	top:14%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:18px;
+}
+
+
+.ques_tb{
+	width:32%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:30%;
+}
+.tb1_td2{
+	width:70%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:60%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:5%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:15%;
+	padding-bottom:0%;
+}
+
+.tb3_td2{
+	width:43%;
+	padding-bottom:0%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:0%;
+}
+
+.tb3_td4{
+	width:38%;
+	padding-bottom:0%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:50%;
+}
+
+.Step2{
+	width:85%;
+	display:inline-block;
+	margin-left:8%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:100%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+
+.blankMessage_New1
+{
+    top: 46%;
+    left: -35%;
+}
+.remark {
+    
+    top: 87%;
+    left: -30%;
+}
+	 
+.remark {
+    top: 52%;
+    left: -9%;
+}
+.prompt_New {
+    top: 45%;
+    left: -78%;
+}	
+ .font_reduce
+	 {
+		font-size:0.92em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.6em; 
+	 }			
+}
+@media (min-width: 1011px) and (max-width: 1100px)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 50px;
+	width:calc((100% - 50px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:4%;
+}
+
+
+
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	height:24px;
+	font-size:13px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	margin-top:0.5%;
+	margin-left:25%;
+}
+
+.howTo{
+	position:absolute;
+	right:30%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:16px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: -3%;
+    width: 62%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+    margin-top: 2%;
+}
+
+
+.Graph_main_div{
+	width:38%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:88%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:25px;
+	    left: -7px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:13px;
+	height:35px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	height:35px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:13px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+}
+
+.noClass{
+	
+}
+
+
+
+.InputAndDoneTbl{
+	width:100%;
+	
+}
+.inputAndDoneSpace{
+	position:absolute;
+	width:30%;
+	right:1%;
+	top:9%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:18px;
+}
+
+
+.ques_tb{
+	width:32%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:30%;
+}
+.tb1_td2{
+	width:70%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:60%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:15%;
+	padding-bottom:0%;
+}
+
+.tb3_td2{
+	width:43%;
+	padding-bottom:0%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:0%;
+}
+
+.tb3_td4{
+	width:38%;
+	padding-bottom:0%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:55%;
+}
+
+.Step2{
+	width:80%;
+	display:inline-block;
+	margin-left:8%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:100%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+	
+.remark {
+    top: 82%;
+    left: -40%;
+}
+.blankMessage_New1
+{
+    top: 50%;
+    left: -35%;
+}
+.p_t
+	{white-space:normal;}
+		.p_t1{white-space:nowrap;	
+			 vertical-align:top;
+			 }
+		.p_t2
+		{
+		 padding-top: 1em; 
+		}
+		 .nowrap1
+	 {
+		white-space:nowrap; 
+	 }
+	 
+.remark {
+    top: 52%;
+    left: -8%;
+}
+.prompt_New {
+    top: 52%;
+    left: -71%;
+}						
+	
+	
+	 .font_reduce
+	 {
+		font-size:0.9em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }	
+	
+}
+.txtn {
+    font-size: 75%!important;
+}
+
+@media (min-width: 450px) and (max-width: 1100px)
+{
+	.done1 {
+    right: -1.5	em!important;
+    top: -1.6em;
+    position: absolute;
+    height: 2.5em!important;
+	    width: 5em!important;
+}
+.new_h{ width:70%!important;}
+.section4{ display:inline-block!important;}
+.AreaForKeypadAndInputInDevice{ display:none!important;}
+.clear {
+    margin-left: 2%;
+}
+
+}
+@media (min-width: 1101px) and (max-width: 1400px)
+{
+.clear{
+	margin-left:2%;
+	
+}		
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 40px;
+	width:calc((100% - 40px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:5%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	height:22px;
+	font-size:13px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:2%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howTo{
+	position:absolute;
+	right:35%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:15px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 0%;
+    width: 65%;
+    margin-top: 0px;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+	font-size: 0.95em;
+}
+.alghai td{ padding-bottom:0.10em!important;}
+
+.Graph_main_div{
+		width:28%;
+		display:inline-block;
+		float:right;
+		position:relative;
+	}
+	
+	.GraphSvg_div{
+		width:90%;
+		margin-top: 0px;
+		display:inline-block;
+		float:right;
+		
+	}
+	.button_div{
+		width:22%;
+		display:inline-block;
+		position:absolute;
+		bottom:25px;
+		left:-50px;
+	}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:13px;
+	height:35px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	height:35px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:28px;
+}
+
+
+
+.noClass{
+	
+}
+
+
+
+.InputAndDoneTbl{
+	width:60%;
+	
+}
+.inputAndDoneSpace{
+	margin-left:0px;
+	width:65%;
+	float:right;
+	margin-top:-10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:20px;
+}
+
+
+.ques_tb{
+	width:32%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:30%;
+}
+.tb1_td2{
+	width:70%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:60%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:15%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:43%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:38%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:80%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:98%;
+	display:inline-block;
+	margin-top:4%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+
+.remark {
+    top: 100px;
+    left: -30%;
+}
+
+
+
+.prompt_New {
+    top: 42%;
+    left: -110%;
+}
+		.p_t {
+    white-space: normal;
+}
+	.p_t1
+	{
+	 white-space:nowrap;
+	 vertical-align:top;
+	 }
+	 .p_t2
+	 {
+		    padding-top: 0.7em; 
+	 }
+	 .nowrap1
+	 {
+		white-space:nowrap; 
+	 }
+	 
+	 .font_reduce
+	 {
+		font-size:0.9em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }
+.txtn {
+    font-size: 95%!important;
+}
+}
+/*
+@media (min-width: 1286px) and (max-width: 1400px)
+{
+	
+	
+	
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:22%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howTo{
+	position:absolute;
+	right:24%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:6%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:17px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 7%;
+    width: 61%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:30%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:84%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div {
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:15px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+}
+
+
+.header {
+    min-height: 140px;
+}
+
+
+
+.InputAndDoneTbl{
+	width:60%;
+	
+}
+.inputAndDoneSpace{
+	margin-left:0px;
+	width:60%;
+	float:right;
+	margin-top:-10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:18px;
+}
+
+
+.ques_tb{
+	width:30%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:85%
+}
+.tb1_td1{
+	width:35%;
+}
+.tb1_td2{
+	width:75%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:25%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:6%;
+}
+		 
+.tb3{
+	width:92%;
+}
+.tb3_td1{
+	width:15%;
+	padding:1%;
+}
+
+.tb3_td2{
+	width:45%;
+	padding:1%;
+}
+.tb3_td3{
+	width:5%;
+}
+
+.tb3_td4{
+	width:35%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:52%;
+}
+
+.Step2{
+	width:80%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:1%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:1.5%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+	
+	
+.remark {
+    top: 53%;
+    left: -9%;
+}
+.prompt_New {
+    top: 51%;
+    left: -95%;
+}
+}*/
+@media (min-width: 1401px) and (max-width: 1550px)
+{
+	
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	height:28px;
+	font-size:14px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:25%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howTo{
+	position:absolute;
+	right:23%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:20px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 6%;
+    width: 56%;
+    display: inline-block;
+    float: left;
+    margin-top: 3%;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:34%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:85%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:20px;
+	left:20px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+	height:33px;
+	font-size:14px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	height:33px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:17px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+}
+
+.noClass{
+	
+}
+
+.InputAndDoneTbl{
+	width:60%;
+	
+}
+.inputAndDoneSpace{
+	margin-left:0px;
+	width:60%;
+	float:right;
+	margin-top:-10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:20px;
+}
+
+
+.ques_tb{
+	width:30%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:35%;
+}
+.tb1_td2{
+	width:75%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:50%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:6%;
+}
+		 
+.tb3{
+	width:95%;
+}
+.tb3_td1{
+	width:15%;
+	padding:1%;
+}
+
+.tb3_td2{
+	width:45%;
+	padding:1%;
+}
+.tb3_td3{
+	width:5%;
+}
+
+.tb3_td4{
+	width:35%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:52%;
+}
+
+.Step2{
+	width:80%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:3%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:3%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+.remark {
+    width: auto;
+    position: absolute;
+    top: 61%;
+    left: -10%;
+}
+.blankMessage_New1 {
+    width: auto;
+    position: absolute;
+    top: 61%;
+    left: -87%;
+}
+}
+@media (min-width: 1551px) and (max-width: 1700px)
+{
+	
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	border:none;
+	padding:8px;
+	font-size:17px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:20%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howTo{
+	position:absolute;
+	right:23%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:20px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 5%;
+    width: 53%;
+    margin-top: 6%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:40%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:85%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:30px;
+	left:25px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:17px;
+	height:38px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:17px;
+	height:38px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:19px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:19px;
+	font-weight:bold;
+	display:none;
+}
+
+.noClass{
+	
+}
+
+
+
+.InputAndDoneTbl{
+	width:60%;
+	
+}
+.inputAndDoneSpace{
+	margin-left:0px;
+	width:60%;
+	float:right;
+	margin-top:-10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:22px;
+}
+
+
+.ques_tb{
+	width:30%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+.Mrgntop{
+	margin-top:1%;
+	margin-left:4%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:33%;
+}
+.tb1_td2{
+	width:67%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:50%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:6%;
+}
+		 
+.tb3{
+	width:98%;
+}
+.tb3_td1{
+	width:15%;
+	padding:1%;
+}
+
+.tb3_td2{
+	width:40%;
+	padding:1%;
+}
+.tb3_td3{
+	width:5%;
+}
+
+.tb3_td4{
+	width:40%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:20%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:52%;
+}
+
+.Step2{
+	width:80%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:4%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:4%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+.remark {
+    width: auto;
+    position: absolute;
+    top: 63%;
+    left: 0%;
+}
+.blankMessage_New1 {
+    width: auto;
+    position: absolute;
+    top: 64%;
+    left: -79%;
+}
+	
+}	
+@media (min-width: 1701px) and (max-width: 1850px)
+{
+	
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	border:none;
+	padding:8px;
+	font-size:15px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:25%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howTo{
+	position:absolute;
+	right:23%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:22px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 7%;
+    width: 54%;
+    margin-top: 5%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:38%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:85%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:30px;
+	left:25px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:15px;
+	height:38px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:15px;
+	height:38px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:20px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:20px;
+	font-weight:bold;
+	display:none;
+}
+
+.noClass{
+	
+}
+.header{
+	min-height:200px;
+}
+
+
+.InputAndDoneTbl{
+	width:60%;
+	
+}
+.inputAndDoneSpace{
+	margin-left:0px;
+	width:60%;
+	float:right;
+	margin-top:-8%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:24px;
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:3%;
+}
+
+.ques_tb{
+	width:30%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:33%;
+}
+.tb1_td2{
+	width:67%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:50%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:6%;
+}
+		 
+.tb3{
+	width:98%;
+}
+.tb3_td1{
+	width:15%;
+	padding:1%;
+}
+
+.tb3_td2{
+	width:40%;
+	padding:1%;
+}
+.tb3_td3{
+	width:5%;
+}
+
+.tb3_td4{
+	width:40%;
+}
+
+.fnt1{
+	font-size:36px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:52%;
+}
+
+.Step2{
+	width:80%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:4%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:4%;
+}
+.Step31{
+	width:8%;
+
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+.remark {
+    width: auto;
+    position: absolute;
+    top: 65%;
+    left: -2%;
+}
+.blankMessage_New1 {
+    width: auto;
+    position: absolute;
+    top: 65%;
+    left: -81%;
+}
+
+	
+}
+@media (min-width: 1851px) and (max-width: 2000px)
+{
+	
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	border:none;
+	padding:8px;
+	font-size:16px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:22%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howTo{
+	position:absolute;
+	right:23%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:24px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 7%;
+    width: 50%;
+    margin-top: 6%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:38%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:85%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:30px;
+	left:25px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+	height:40px;
+	font-size:16px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	height:40px;
+	font-size:16px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:20px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:18px;
+	font-weight:bold;
+	display:none;
+}
+
+.noClass{
+	
+}
+.header{
+	min-height:200px;
+}
+
+
+
+.InputAndDoneTbl{
+	width:60%;
+	
+}
+.inputAndDoneSpace{
+	margin-left:0px;
+	width:60%;
+	float:right;
+	margin-top:-8%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:24px;
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:3%;
+}
+
+.ques_tb{
+	width:30%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:33%;
+}
+.tb1_td2{
+	width:67%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:50%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:6%;
+}
+		 
+.tb3{
+	width:98%;
+}
+.tb3_td1{
+	width:15%;
+	padding:1%;
+}
+
+.tb3_td2{
+	width:40%;
+	padding:1%;
+}
+.tb3_td3{
+	width:5%;
+}
+
+.tb3_td4{
+	width:40%;
+}
+
+.fnt1{
+	font-size:38px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:52%;
+}
+
+.Step2{
+	width:80%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:4%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:4%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+
+
+.remark {
+    top: 65%;
+    left: 0%;
+}
+.blankMessage_New1 {
+    top: 65%;
+    left: -82%;
+}
+}
+@media (min-width: 2001px)
+{
+			
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 60px;
+	width:calc((100% - 60px));
+}
+
+.howTo_button{
+	border:none;
+	padding:8px;
+	font-size:18px;
+	height:46px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:25%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howTo{
+	position:absolute;
+	right:23%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:26px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 8%;
+    width: 52%;
+    margin-top: 5%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:38%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:85%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:15%;
+	display:inline-block;
+	position:absolute;
+	bottom:30px;
+	left:25px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+
+.reset{
+    padding: 6px;
+    border-radius: 5px;
+	font-size:18px;
+	height:48px;
+}
+.done_btn{
+    padding: 6px;
+    border-radius: 5px;
+	height:48px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:22px;
+}
+.txt{
+	font-size:28px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:20px;
+	font-weight:bold;
+	display:none;
+}
+
+.noClass{
+	
+}
+.header{
+	min-height:220px;
+}
+
+
+.InputAndDoneTbl{
+	width:60%;
+	
+}
+.inputAndDoneSpace{
+	margin-left:0px;
+	width:60%;
+	float:right;
+	margin-top:-8%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:26px;
+}
+.Mrgntop{
+	margin-top:1.5%;
+	margin-left:3%;
+}
+
+.ques_tb{
+	width:30%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:33%;
+}
+.tb1_td2{
+	width:67%;
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:50%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:6%;
+}
+		 
+.tb3{
+	width:98%;
+}
+.tb3_td1{
+	width:15%;
+	padding:1%;
+}
+
+.tb3_td2{
+	width:40%;
+	padding:1%;
+}
+.tb3_td3{
+	width:5%;
+}
+
+.tb3_td4{
+	width:40%;
+}
+
+.fnt1{
+	font-size:40px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:52%;
+}
+
+.Step2{
+	width:80%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:4%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:4%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+
+.remark {
+    top: 65%;
+    left: 0%;
+}
+.blankMessage_New1 {
+    top: 65%;
+    left: -80%;
+}
+
+
+	
+}
+
+ 		/************************<-- Portrait-->*************************/
+ 
+@media (min-width: 320px) and (max-width: 370px) and (orientation:portrait)
+{
+
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 2px;
+	width:calc((100% - 2px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:2px;
+	font-size:8px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+	
+}
+
+.howToForDevice{
+	position:absolute;
+	bottom:2%;
+	left:15%;
+	margin-top:0%;
+	margin-left:0%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:11px;
+}
+ul {
+   list-style-position: inside;
+}
+
+.input{
+	height:15px;
+}
+
+.Step1{
+	margin-left:0%;
+	margin-top:6%;
+	width:71%;
+	display:inline-block;
+	float:left;
+	border-right:1px solid #000;
+}
+
+
+.Graph_main_div {
+    width: 28%;
+    margin-top: 10%;
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-40px;
+	left:5px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-22%;
+	left:7%;
+}
+
+.BtnDevice_td1{
+	width:33%;
+}
+
+.reset{
+    padding: 1px;
+    border-radius: 3px;
+	font-size:8px;
+}
+.done_btn{
+    padding: 1px;
+    border-radius: 3px;
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:18px;
+}
+.txt{
+	font-size:30px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:20px;
+	font-weight:bold;
+	display:none;
+}
+
+.noClass{
+	font-size:10px;
+}
+
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:3%;
+}
+
+
+.InputAndDoneTbl{
+	width:56%;
+	margin-right:2%;
+}
+.inputAndDoneSpace{
+	margin-left:0%;
+	width:100%;
+	float:right;
+	margin-top:-17%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:10px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1.5%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1.5%;
+}
+
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:19%;
+}
+.tb1_td2{
+	width:81%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.paddL{
+	padding-left:6%;
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:22px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:94%;
+	display:inline-block;
+	margin-left:6%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:6%;
+	float:left;
+}
+.Step32{
+	width:94%;
+	float:left;
+}
+.img_arrow{
+	width:70%;
+}
+
+		
+.remark {
+    top: 110px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 110px;
+    left: 0%;
+}		
+
+
+	.font_reduce
+	 {
+		font-size:0.95em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }
+	 
+.prompt_New {
+    top: -133%;
+    left: -32%;
+}
+.howToForDevice {
+    position: absolute;
+    bottom: 2%;
+    left: 28%;
+    margin-top: 0%;
+    margin-left: 22%;
+}
+
+
+}
+
+@media (min-width: 371px) and (max-width: 420px) and (orientation:portrait)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 2px;
+	width:calc((100% - 2px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:2px;
+	font-size:8px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+
+.howToForDevice{
+	position:absolute;
+	bottom:2%;
+	left:15%;
+	margin-top:0%;
+	margin-left:0%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:11px;
+}
+ul {
+   list-style-position: inside;
+}
+
+.input{
+	height:15px;
+}
+
+.Step1{
+	margin-left:0%;
+	margin-top:6%;
+	width:71%;
+	display:inline-block;
+	float:left;
+	border-right:1px solid #000;
+}
+
+
+.Graph_main_div {
+    width: 28%;
+    margin-top: 11%;
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-40px;
+	left:5px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:2px;
+	
+}
+
+.buttonDivForDevice{
+	bottom:-22%;
+	left:7%;
+}
+
+.BtnDevice_td1{
+	width:33%;
+}
+
+.reset{
+    padding: 1px;
+    border-radius: 3px;
+	font-size:8px;
+}
+.done_btn{
+    padding: 1px;
+    border-radius: 3px;
+	
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:18px;
+}
+.txt{
+	font-size:30px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:20px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 17px;
+}
+
+.noClass{
+	font-size:12px;
+}
+
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:1%;
+}
+
+
+
+.InputAndDoneTbl{
+	width:56%;
+	margin-right:2%;
+}
+.inputAndDoneSpace{
+	margin-left:0px;
+	width:100%;
+	float:right;
+	margin-top:-17%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:10px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1.5%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1.5%;
+}
+.paddL{
+	padding-left:6%;
+}
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:19%;
+}
+.tb1_td2{
+	width:81%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:22px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:94%;
+	display:inline-block;
+	margin-left:6%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:6%;
+	float:left;
+}
+.Step32{
+	width:94%;
+	float:left;
+}
+.img_arrow{
+	width:70%;
+}
+		
+.remark {
+    top: 130px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 130px;
+    left: 0%;
+}		
+
+
+
+	.font_reduce
+	 {
+		font-size:0.92em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }	
+.prompt_New {
+    top: -96%;
+    left: -26%;
+}
+.howToForDevice {
+    position: absolute;
+    bottom: 2%;
+    left: 29%;
+    margin-top: 0%;
+     margin-left: 20%;
+}	
+
+}
+
+@media (min-width: 421px) and (max-width: 470px) and (orientation:portrait)
+{
+
+
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 3px;
+	width:calc((100% - 3px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:8px;
+	height:18px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+
+.howToForDevice {
+    position: absolute;
+    bottom: 1%;
+    left: 34%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:13px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1{
+	margin-left:0%;
+	margin-top:6%;
+	width:71%;
+	display:inline-block;
+	float:left;
+	border-right:1px solid #000;
+}
+
+
+.Graph_main_div {
+    width: 28%;
+    margin-top: 12%;
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-45px;
+	left:8px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:2px;
+}
+.buttonDivForDevice{
+	bottom:-19%;
+	left:9%;
+}
+.BtnDevice_td1{
+	width:34%;
+}
+.reset{
+    padding: 3px;
+    border-radius: 3px;
+	font-size:8px;
+	height:18px;
+}
+.done_btn{
+    padding: 3px;
+    border-radius: 5px;
+	height:18px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:34px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:25px;
+	font-weight:bold;
+	display:none;
+}
+
+.noClass{
+	font-size:14px;
+}
+
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:1%;
+}
+
+
+
+.InputAndDoneTbl{
+	width:60%;
+	margin-right:2%;
+}
+.inputAndDoneSpace{
+	margin-left:0px;
+	width:100%;
+	float:right;
+	margin-top:-12%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:13px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+.paddL{
+	padding-left:6%;
+}
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:19%;
+}
+.tb1_td2{
+	width:81%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:24px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:94%;
+	display:inline-block;
+	margin-left:6%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:6%;
+	float:left;
+}
+.Step32{
+	width:94%;
+	float:left;
+}
+.img_arrow{
+	width:65%;
+}		
+.remark {
+    top: 140px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 140px;
+    left: 0%;
+}		
+
+
+
+
+	.font_reduce
+	 {
+		font-size:0.9em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }
+	 
+.howToForDevice {
+    position: absolute;
+    bottom: 1%;
+    left: 29%;
+    margin-top: 0%;
+    margin-left: 20%;
+}
+.prompt_New {
+    top: -76%;
+    left: -26%;
+}	 
+	 
+}
+
+
+@media (min-width: 471px) and (max-width: 520px) and (orientation:portrait)
+{
+
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 5px;
+	width:calc((100% - 5px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:10px;
+	height:22px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+
+.howToForDevice{
+	position:absolute;
+	bottom:1%;
+	margin-top:0%;
+	margin-left:28%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:13px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1{
+	margin-left:0%;
+	margin-top:6%;
+	width:67%;
+	display:inline-block;
+	float:left;
+	border-right:2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:32%;
+	margin-top:6%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-45px;
+	left:10px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-19%;
+	left:9%;
+}
+.BtnDevice_td1{
+	width:34%;
+}
+.reset{
+    padding: 2px;
+    border-radius: 3px;
+	font-size:8px;
+	height:20px;
+}
+.done_btn{
+    padding: 2px;
+    border-radius: 5px;
+	height:20px;
+	
+}
+
+
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:35px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:25px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 21px;
+}
+
+.noClass{
+	font-size:15px;
+}
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:1%;
+}
+
+
+.InputAndDoneTbl{
+	width:100%;
+	margin-right:2%;
+	margin-top:-8%;
+}
+.inputAndDoneSpace{
+	margin-right:-5%;
+	width:43%;
+	float:right;
+	margin-top:10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:15px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+.paddL{
+	padding-left:6%;
+}
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:20%;
+}
+.tb1_td2{
+	width:80%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:7%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:92%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:3%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+	
+.remark {
+    top: 180px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 180px;
+    left: 0%;
+}		
+
+
+	.font_reduce
+	 {
+		font-size:0.9em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }
+.prompt_New {
+    top: -30%;
+    left: -36%;
+}	 
+
+}
+
+@media (min-width: 521px) and (max-width: 560px) and (orientation:portrait)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 5px;
+	width:calc((100% - 5px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:10px;
+	height:22px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	position:absolute;
+	bottom:1%;
+	margin-top:0%;
+	margin-left:28%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:13px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1{
+	margin-left:0%;
+	margin-top:6%;
+	width:64%;
+	display:inline-block;
+	float:left;
+	border-right:2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:35%;
+	margin-top:6%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-45px;
+	left:10px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:2px;
+}
+
+.buttonDivForDevice{
+	bottom:-15%;
+	left:10%;
+	width:60%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:34%;
+}
+
+.reset{
+    padding: 2px;
+    border-radius: 3px;
+	font-size:9px;
+	height:20px;
+}
+.done_btn{
+    padding: 2px;
+    border-radius: 5px;
+	height:20px;
+	
+}
+
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:35px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:25px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 24px;
+}
+
+.noClass{
+	font-size:15.5px;
+}
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:1%;
+}
+
+
+.InputAndDoneTbl{
+	width:100%;
+	margin-right:2%;
+	margin-top:-8%;
+}
+.inputAndDoneSpace{
+	margin-right:-5%;
+	width:43%;
+	float:right;
+	margin-top:10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:15px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+.paddL{
+	padding-left:6%;
+}
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:20%;
+}
+.tb1_td2{
+	width:80%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:7%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:92%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:3%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+
+.remark {
+    top: 200px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 200px;
+    left: 0%;
+}		
+
+
+	.font_reduce
+	 {
+		font-size:0.9em; 
+	 }
+	 .font_reduce1
+	 {
+	font-size:0.3em; 
+	 }	
+.prompt_New {
+    top: -10%;
+    left: -42%;
+}
+
+}
+
+@media (min-width: 561px) and (max-width: 640px) and (orientation:portrait)
+{
+	
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 20px;
+	width:calc((100% - 20px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:12px;
+	height:22px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:0%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	position:absolute;
+	bottom:1%;
+	margin-top:0%;
+	margin-left:28%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:13px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1{
+	margin-left:0%;
+	margin-top:6%;
+	width:64%;
+	display:inline-block;
+	float:left;
+	border-right:2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:35%;
+	margin-top:6%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-45px;
+	left:18px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:2px;
+}
+.buttonDivForDevice{
+	bottom:-15%;
+	left:8%;
+	width:60%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:1%;
+}
+
+.reset{
+    padding: 3px;
+    border-radius: 3px;
+	font-size:10px;
+	height:20px;
+}
+.done_btn{
+    padding: 3px;
+    border-radius: 5px;
+	height:20px;
+	font-size:10px;
+	
+}
+
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:35px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:25px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 24px;
+}
+
+.noClass{
+	font-size:16px;
+}
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:1%;
+}
+
+
+.InputAndDoneTbl{
+	width:100%;
+	margin-right:2%;
+	margin-top:-8%;
+}
+.inputAndDoneSpace{
+	margin-right:-5%;
+	width:43%;
+	float:right;
+	margin-top:10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:15px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+.paddL{
+	padding-left:5%;
+}
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:20%;
+}
+.tb1_td2{
+	width:80%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:7%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:92%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:3%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+.remark {
+    top: 220px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 220px;
+    left: 0%;
+}		
+.prompt_New {
+    top: -10%;
+    left: -42%;
+}
+}
+
+@media (min-width:641px) and (max-width: 720px) and (orientation:portrait)
+{
+	
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 20px;
+	width:calc((100% - 20px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:12px;
+	height:22px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:2%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	position:absolute;
+	bottom:1%;
+	margin-top:0%;
+	margin-left:28%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:14px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1{
+	margin-left:0%;
+	margin-top:6%;
+	width:61%;
+	display:inline-block;
+	float:left;
+	border-right:2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:38%;
+	margin-top:6%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-45px;
+	left:20px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:4px;
+}
+.buttonDivForDevice{
+	bottom:-15%;
+	left:8%;
+	width:60%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:1%;
+}
+
+.reset{
+    padding: 3px;
+    border-radius: 3px;
+	font-size:12px;
+	height:23px;
+}
+.done_btn{
+    padding: 3px;
+    border-radius: 5px;
+	height:23px;
+	font-size:12px;
+	
+}
+
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:35px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:25px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 24px;
+}
+
+.noClass{
+	font-size:17px;
+}
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:1%;
+}
+
+
+.InputAndDoneTbl{
+	width:100%;
+	margin-right:2%;
+	margin-top:-8%;
+}
+.inputAndDoneSpace{
+	margin-right:-5%;
+	width:43%;
+	float:right;
+	margin-top:12%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:16px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+.paddL{
+	padding-left:5%;
+}
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:20%;
+}
+.tb1_td2{
+	width:80%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:7%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:92%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:3%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+.remark {
+    top: 270px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 270px;
+    left: 0%;
+}
+.prompt_New {
+    top: 2%;
+    left: -41%;
+}
+}
+
+@media (min-width: 721px) and (max-width: 800px) and (orientation:portrait)
+{
+	
+	
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 20px;
+	width:calc((100% - 20px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:12px;
+	height:22px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:4%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	position:absolute;
+	bottom:2%;
+	margin-top:0%;
+	margin-left:28%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:16px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1{
+	margin-left:0%;
+	margin-top:6%;
+	width:63%;
+	display:inline-block;
+	float:left;
+	border-right:2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:36%;
+	margin-top:6%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-45px;
+	left:20px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:4px;
+}
+
+.buttonDivForDevice{
+	bottom:-15%;
+	left:9%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+
+.reset{
+    padding: 3px;
+    border-radius: 3px;
+	font-size:12px;
+	height:23px;
+}
+.done_btn{
+    padding: 3px;
+    border-radius: 5px;
+	height:23px;
+	font-size:12px;
+	
+}
+
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:35px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:22px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 27px;
+}
+
+.noClass{
+	font-size:20px;
+}
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:2%;
+}
+
+
+.InputAndDoneTbl{
+	width:100%;
+	margin-right:2%;
+	margin-top:-8%;
+}
+.inputAndDoneSpace{
+	margin-right:-5%;
+	width:43%;
+	float:right;
+	margin-top:10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:18px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+.paddL{
+	padding-left:3%;
+}
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:22%;
+}
+.tb1_td2{
+	width:78%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:7%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:92%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:3%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+.remark {
+    top: 280px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 280px;
+    left: 0%;
+}
+.prompt_New {
+    top: -5%;
+    left: -40%;
+}
+}
+
+@media (min-width: 801px) and (max-width: 880px) and (orientation:portrait)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 20px;
+	width:calc((100% - 20px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:14px;
+	height:22px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:6%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	position:absolute;
+	bottom:1%;
+	margin-top:0%;
+	margin-left:28%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:16px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1{
+	margin-left:0%;
+	margin-top:6%;
+	width:60%;
+	display:inline-block;
+	float:left;
+	border-right:2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:39%;
+	margin-top:6%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-50px;
+	left:28px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.buttonDivForDevice{
+	bottom:-15%;
+	left:8%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+.reset{
+    padding: 2px;
+    border-radius: 3px;
+	font-size:13px;
+	height:24px;
+}
+.done_btn{
+    padding: 2px;
+    border-radius: 3px;
+	height:24px;
+	font-size:13px;
+	
+}
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:35px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:22px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 28px;
+}
+
+.noClass{
+	font-size:21px;
+}
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:2%;
+}
+
+
+.InputAndDoneTbl{
+	width:100%;
+	margin-right:2%;
+	margin-top:-8%;
+}
+.inputAndDoneSpace{
+	margin-right:-5%;
+	width:43%;
+	float:right;
+	margin-top:10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:19px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+.paddL{
+	padding-left:4%;
+}
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:22%;
+}
+.tb1_td2{
+	width:78%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:7%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:92%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+.remark {
+    top: 340px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 340px;
+    left: 0%;
+}
+.prompt_New {
+    top: 13%;
+    left: -42%;
+}
+}
+
+@media (min-width: 881px) and (max-width: 960px) and (orientation:portrait)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 20px;
+	width:calc((100% - 20px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:15px;
+	height:25px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:4%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice{
+	position:absolute;
+	bottom:1%;
+	margin-top:0%;
+	margin-left:28%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:16px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 12%;
+    width: 56%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:43%;
+	margin-top:6%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-50px;
+	left:34px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.buttonDivForDevice{
+	bottom:-12%;
+	left:8%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+
+.reset{
+    padding: 4px;
+    border-radius: 3px;
+	font-size:14px;
+	height:26px;
+}
+.done_btn{
+    padding: 4px;
+    border-radius: 3px;
+	height:26px;
+	font-size:14px;
+	
+}
+
+
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:35px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:25px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 28px;
+}
+
+.noClass{
+	font-size:21px;
+}
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:1%;
+}
+
+
+.InputAndDoneTbl{
+	width:100%;
+	margin-right:2%;
+	margin-top:-8%;
+}
+.inputAndDoneSpace{
+	margin-right:-5%;
+	width:43%;
+	float:right;
+	margin-top:10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:19px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+.paddL{
+	padding-left:2%;
+}
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:24%;
+}
+.tb1_td2{
+	width:76%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:70%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:7%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:92%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+
+.remark {
+    top: 400px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 400px;
+    left: 0%;
+}	
+.prompt_New {
+    top: 27%;
+    left: -60%;
+}
+}
+@media (min-width: 961px) and (max-width: 1040px) and (orientation:portrait)
+{
+
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 20px;
+	width:calc((100% - 20px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:15px;
+	height:25px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:4%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice {
+    position: absolute;
+    bottom: 1%;
+    left: 33%;
+    margin-top: 0%;
+    margin-left:28%;
+}
+
+
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:19px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 12%;
+    width: 56%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:43%;
+	margin-top:6%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-60px;
+	left:38px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.buttonDivForDevice{
+	bottom:-12%;
+	left:8%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+.reset{
+    padding: 5px;
+    border-radius: 3px;
+	font-size:15px;
+	height:28px;
+}
+.done_btn{
+    padding: 5px;
+    border-radius: 3px;
+	height:28px;
+	font-size:15px;
+	
+}
+
+
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:35px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:25px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 32px;
+}
+
+.noClass{
+	font-size:24px;
+}
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:1%;
+}
+
+
+.InputAndDoneTbl{
+	width:100%;
+	margin-right:2%;
+	margin-top:-8%;
+}
+.inputAndDoneSpace{
+	margin-right:-5%;
+	width:40%;
+	float:right;
+	margin-top:10%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:21px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+.paddL{
+	padding-left:2%;
+}
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:24%;
+}
+.tb1_td2{
+	width:76%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:70%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:7%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:92%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+.remark {
+    top: 450px;
+    left: 0%;
+}
+.blankMessage_New1
+{
+    top: 450px;
+    left: 0%;
+}	
+.howToForDevice {
+    position: absolute;
+    bottom: 1%;
+    left: 26%;
+    margin-top: 0%;
+    margin-left:28%;
+}
+.prompt_New {
+    top: 12%;
+    left: -44%;
+}
+
+
+
+}
+@media (min-width: 1041px)  and (orientation:portrait)
+{
+
+
+.solutionMainSteps{
+	margin-top: 0px;
+	margin-left: 20px;
+	width:calc((100% - 20px));
+}
+.Mrgntop{
+	margin-top:12px;
+	margin-left:0%;
+}
+
+.howTo_button{
+	border:none;
+	padding:4px;
+	font-size:18px;
+	height:28px;
+	cursor:pointer;
+	box-shadow:2px 2px 2px #C00;
+	border-radius: 2px;
+    transform: rotateX(20deg);
+    background: linear-gradient(rgb(255, 255, 0) 19%, rgb(255, 153, 0) 100%);
+}
+.howTo_button:hover{
+	color:red;
+}
+.howTo_div{
+	position:absolute;
+	left:1%;
+	z-index:5;
+	width:auto;
+	padding-left:5px;
+	padding-bottom:5px;
+	border:1px solid #CCC;	
+	background-color:white;
+	
+}
+
+.howToForDevice {
+    position: absolute;
+    bottom: 1%;
+    left: 28%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.howTo{
+	position:absolute;
+	right:8%;
+	z-index:5;
+	top:0%;
+	float:right;
+}
+.container{
+	position:relative;	
+}
+
+.step_cross_stp{
+	float:left;	
+	color:#C00;
+}
+.step_cross_img{
+	width:4%;	
+	float:right;
+	cursor:pointer;
+
+}
+.howTo_list{
+	clear:both;	
+	padding-right:5px;
+	font-size:24px;
+}
+ul {
+   list-style-position: inside;
+}
+
+
+.Step1 {
+    margin-left: 0%;
+    margin-top: 8%;
+    width: 61%;
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #000;
+}
+
+
+.Graph_main_div{
+	width:38%;
+	margin-top:6%;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+
+.GraphSvg_div{
+	width:100%;
+	margin-top: 0px;
+	display:inline-block;
+	float:right;
+	
+}
+.button_div{
+	width:20%;
+	display:inline-block;
+	position:absolute;
+	bottom:-60px;
+	left:38px;
+}
+.Btn_tb1{
+	width:100%;
+}
+.Btn_td1{
+	width:100%;
+	padding-top:5px;
+}
+
+.buttonDivForDevice{
+	bottom:-11%;
+	left:8%;
+	width:62%;
+}
+.BtnDevice_tb1{
+	width:100%;
+}
+.BtnDevice_td1{
+	width:33%;
+	padding-left:2%;
+}
+
+
+.reset{
+    padding: 5px;
+    border-radius: 3px;
+	font-size:16px;
+	height:28px;
+}
+.done_btn{
+    padding: 5px;
+    border-radius: 3px;
+	height:28px;
+	font-size:16px;
+	
+}
+
+
+
+.svg1{
+	width:100%;
+}
+
+.ShowCoOrdinates{
+	position:absolute;
+	font-size:24px;
+}
+.txt{
+	font-size:35px;
+}
+
+.txt1,.txt2,.txt3{
+	font-size:27px;
+	font-weight:bold;
+	display:none;
+}
+
+.input {
+    height: 35px;
+}
+
+.noClass{
+	font-size:28px;
+}
+.header{
+	position:relative;
+}
+.ClickToAnsDiv{
+	position:absolute;
+	right:4%;
+	bottom:1%;
+}
+
+
+.InputAndDoneTbl{
+	width:100%;
+	margin-right:2%;
+	margin-top:-8%;
+}
+.inputAndDoneSpace{
+	margin-right:-5%;
+	width:43%;
+	float:right;
+	margin-top:12.5%;
+}
+.Inpt_td1{
+	text-align:center;
+	font-size:25px;
+}
+
+
+.ques_tb{
+	width:38%;
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+.ques_td1{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFFFE1;
+	padding:1%;
+}
+
+.ques_td2,.ques_td3,.ques_td4{
+	width:25%;
+	text-align:center;
+	border:1px solid;
+	background-color:#FFF;
+	padding:1%;
+}
+
+.paddL{
+	padding-left:2%;
+}
+
+.tb1{
+	width:100%
+}
+.tb1_td1{
+	width:24%;
+}
+.tb1_td2{
+	width:76%;
+	vertical-align:top;
+	
+}
+.font1{
+	
+}
+
+.align_top{
+	vertical-align:top;
+}
+.tb2{
+	width:70%;
+	border:1px solid black;
+	border-collapse:collapse;
+	
+}
+.tb2_col{
+	background-color:#FFFFE1;
+}
+.tb2_td1{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:7%;
+}
+.tb2_td2{
+	width:50%;
+	text-align:center;
+	border:1px solid black;
+	padding:6%;
+	
+}
+.tb2_pad{
+	padding-top:8%;
+}
+		 
+.tb3{
+	width:100%;
+}
+.tb3_td1{
+	width:13%;
+	padding-bottom:2%;
+}
+
+.tb3_td2{
+	width:44%;
+	padding-bottom:2%;
+}
+.tb3_td3{
+	width:5%;
+	padding-bottom:2%;
+}
+
+.tb3_td4{
+	width:39%;
+	padding-bottom:2%;
+}
+
+.fnt1{
+	font-size:34px;
+}
+.padd1{
+	padding-left:18%;
+}
+.img1{
+	width:100%;
+}
+.img_part{
+	width:65%;
+}
+
+.Step2{
+	width:92%;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+.Step3{
+	width:90%;
+	display:inline-block;
+	margin-top:2%;
+}
+.Step31{
+	width:8%;
+	float:left;
+}
+.Step32{
+	width:92%;
+	float:left;
+}
+.img_arrow{
+	width:72%;
+}
+
+.remark {
+    top: 118%;
+    left: 0%;
+}
+.blankMessage_New1 {
+    top: 118%;
+    left: 0%;
+}	
+.howToForDevice {
+    position: absolute;
+    bottom: 1%;
+    left: 30%;
+    margin-top: 0%;
+   margin-left:28%;
+}
+.prompt_New {
+    top: 3%;
+    left: -39%;
+}
+
+}
+
+@media (min-width: 320px) and (orientation:portrait)
+{
+.PortF{ font-size:0em;}	
+	.p_t {
+    white-space: normal;
+}
+	.p_t1
+	{
+	 white-space:nowrap;
+	 vertical-align:top;
+	 }
+	 .p_t2
+	 {
+		    padding-top: 1em; 
+	 }
+	 .nowrap1
+	 {
+		white-space:nowrap; 
+	 }
+	 
+	 .LandScape
+	 {
+		display:none; 
+	 }
+	 .Portrait
+	 {
+		display:table-row; 
+	 }
+	 
+	 .ZtableDivMain,.mini_tablBtn{ display:none;}
+	 .PortSol{ display:inline-block;}
+	 .PortSol{right: 6em!important;top: 4.5em; }
+.done1 {
+	right:unset;
+    left: 8em;
+    top: -0.6em;
+    position: absolute;
+}
+.AreaForKeypadAndInputInDevice{ margin-top:1em;}
+.AreaForKeypadAndInputInDevice{ display:inline-block!important;}
+.header{ height:11.0em!important;}
+.InputDiv{ margin-top:0em!important;}
+.blankMessage_New, .incomplete_New {
+     margin-top: 0px!important; 
+     margin-left: 0%!important;
+	 left:unset!important;
+	 top:unset!important;
+}
+.remark {
+    top: 0px!important;
+    left: 0px!important;
+}
+.alghai {
+    width: 100%;
+    margin: 0 auto;
+}
+.Step1 {
+    margin-top: 6%;
+    font-size: 0.68em;
+}
+.p_t{ padding-top:0em!important;}
+.section4{ display:none!important;}
+.new_h {
+    width: 100%!important;
+}
+.done1 {
+    right: -1.5 em!important;
+    top: 0.0em;
+    position: absolute;
+    height: 2em!important;
+    width: 4em!important;
+}
+.buttonDivForDevice {
+    bottom: -15%;
+    left: 30%;
+}
+.clear {
+    margin-left: 5%;
+}
+}
+
+.tb2 {
+    width: 6em;
+}
+.step_cross_img{
+	width:6%;
+}
+
+
+.howTo_button{
+	background:#09F;
+	box-shadow:none;
+	color:white;
+}
+.howTo_button:hover{
+	color:#AFF;
+	box-shadow:1px 1px 1px #09F;
+}
+
+
+ul li {
+    list-style-position: outside;
+    margin-left: 1em;
+	margin-top:0em;
+}
+
+.ClickToAnsDiv{
+	margin-top:6px;
+}
+.final_line,.final_line2,.crcle1,.crcle2,.poly1{
+	display:none;
+}
+/*----- 27 -------*/
+
+
+.tab:focus,.done1:focus
+{
+	outline:none;
+}
+.remark{display:inline;}
+.header {
+	
+	background-image: none;
+ 	
+}
+.middle{margin-top:0.0em!important;}
+.graph_anim{
+   	animation: graph_anim 2s forwards;
+
+}
+@keyframes graph_anim{
+  
+  100%{
+	  left:0px; 
+	 }
+
+}
+
+.extraclass{
+	left:0px !important;
+	}
+.pre{
+	display:inline-block;
+	}
+
+.disable{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	z-index:100;
+}
+.alghai td{padding-top:0.0em;}
+.R1{ text-align:right;}
+.C1{ text-align:center;}
+.L1{ text-align:left;}
+.remark{ white-space:nowrap; font-weight:bold;}
+.crcl{ pointer-events:none!important;}
+.txt11,.txt21,.txt31,.txt41{fill: blue; font-weight:bold; font-size:100%!important;}
+.txt1,.txt2,.txt3,.txt4{font-weight:bold; font-size:100%!important;}
+.alghai .lastTd{ padding-bottom:0em!important;}
