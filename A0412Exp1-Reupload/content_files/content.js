@@ -304,6 +304,7 @@ if(true){
 					next_val = 1;
 				}
 				temp1 = String(Q2_Arr[next_val]).split("@");
+				alert("india")
 				val1 = temp1[0];
 				val2 = temp1[1];
 				val3 = temp1[2];
